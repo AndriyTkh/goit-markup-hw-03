@@ -1,0 +1,123 @@
+body{
+    background-color: #FFFFFF;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    color: #2E2F42;
+}
+h1{
+    color: #FFFFFF;
+}
+h2,h3{
+    color: #2E2F42;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.contact-info{
+    font-style: normal;
+}
+.navigation{
+    color: #2E2F42;
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size:  18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-studio{
+    color: #2e2f42;
+}
+.navigation-link{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.navigation-link:hover,
+.navigation-link:focus{
+    color: #404bbf;
+}
+
+.contacts{
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+.contacts:hover,
+.contacts:focus{
+    color: #404bbf;
+}
+
+.efective-solutions{
+    background-color: #2E2F42;
+}
+.efective-solutions-title{
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.07;
+}
+.efective-solutions-button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.efective-solutions-button:hover,
+.efective-solutions-button:focus{
+    background-color: #404BBF;
+}
+
+.list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.list-paragraf{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team{
+    background-color: #F4F4FD;
+}
+.section-title{
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.team-list{
+    background-color: #FFFFFF;
+}
+
+.end-section {
+    background-color: #2E2F42;
+}
+.end-logo-studio{
+    color: #f4f4fd;
+}
+.end-section-text{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
