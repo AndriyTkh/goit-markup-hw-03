@@ -1,3 +1,17 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+img{
+    display: block;
+}
 body{
     background-color: #FFFFFF;
     color: #434455;
@@ -6,19 +20,27 @@ body{
 header{
     color: #2E2F42;
 }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 h1{
     color: #FFFFFF;
 }
 h2,h3{
     color: #2E2F42;
 }
-ul{
-    list-style-type: none;
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 ;
 }
-a{
-    text-decoration: none;
-}
-
 
 .contact-info{
     font-style: normal;
