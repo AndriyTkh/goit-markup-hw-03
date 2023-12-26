@@ -41,9 +41,9 @@ h2,h3{
     color: #2E2F42;
 }
 .container{
-    width: 1440px;
+    width: 1158px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 15px;
 }
 
 /* Sections stuff */
@@ -78,9 +78,10 @@ h2,h3{
 }
 
 /* Other */
-
-.page-top-section{
-    padding: 24px 156px;
+.page-top{
+    border-bottom: 1px solid #e7e9fc;
+}
+.page-top-container{
     display: flex;
     gap: 332px;
 }
@@ -89,7 +90,7 @@ h2,h3{
 }
 .navigation{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     color: #2E2F42;
 }
 .logo{
@@ -100,6 +101,7 @@ h2,h3{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 .logo-studio{
     color: #2e2f42;
@@ -107,9 +109,10 @@ h2,h3{
 .navigation-list{
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 .navigation-link{
+    padding: 24px 0;
+    
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
